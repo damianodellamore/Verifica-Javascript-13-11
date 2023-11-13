@@ -533,9 +533,9 @@ halfTree(8);
 */
 function tree(n) {
   for (let i = 1; i <= n; i++) {
-      let stars = '*'.repeat(2 * i - 1);
-      let spaces = ' '.repeat(n - i);
-      console.log(spaces + stars);
+      let asterischi = '*'.repeat(2 * i - 1);
+      let spazi = ' '.repeat(n - i);
+      console.log(spazi + asterischi);
   }
 }
 tree(15)
